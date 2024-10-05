@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Dev') {
+        stage('raj_DEV') {
             steps {
                 echo 'Hello'
            }
          }
         
-        stage('Testing') {
+        stage('MADHU_TESTING') {
             steps {
                 echo 'Hello'
            }
          }
        
-        stage('Deploment') {
+        stage('TANU_DEPLOYMENT') {
             steps {
                 echo 'Hello'
            }
